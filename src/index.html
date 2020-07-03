@@ -8,6 +8,10 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <app-root></app-root>
+  <first-component name="Lucas" show-message="true"></first-component>
+  <script src="../elements/first-element.js"></script>
+  <script>
+    document.querySelector('first-component').addEventListener('clicked', (a) => console.log(a));
+  </script>
 </body>
 </html>
